@@ -73,5 +73,5 @@ groups = [
 ]
 
 for num, group in enumerate(groups, start=1):
-    _ = ', '.join(group)
-    print(f'Группа {num}: {_}')
+    output = ', '.join(group)
+    print(f'Группа {num}: {output}')
